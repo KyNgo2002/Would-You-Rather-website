@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
+body{
+    background-image:  linear-gradient(90deg, #a234eb, #6433FF, #A600F7);
+    font-family: 'Bubblegum Sans', cursive, sans-serif;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-size: cover;
+
+}
+form {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+.submit-text {
+    position: absolute;
+    width: 80%;
+    height: 4%;
+    top: 6.15%;
+    font-size: 2.5vw;
+    
+}
+
+input {
+    height: 80%;
+    width: 50%;
+    font-family: 'Bubblegum Sans', cursive, sans-serif;
+    font-size: 50px;
+    border: none;
+}
+
+header {
+    width: 30vw;
+    height: 8%;
+    margin: auto;
+    font-size: 3vw;
+    padding: 10px;
+    color: white;
+    text-align: center
+
+}
+.container{
+    display: flex;
+    background-color: white;
+    height: 75%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+a, #first, #second{
+    height: 85%;
+    width: 80%;
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    vertical-align: middle;
+}
+button {
+    height: 100%;
+    width: 100%;
+    font-family: 'Bubblegum Sans', cursive, sans-serif;
+    border-radius: 1%;  
+    border: none; 
+}
+textarea {
+    height: 78%;
+    width: 48%;
+    margin: auto;
+    font-family: 'Bubblegum Sans', cursive, sans-serif;
+    border-radius: 1%;  
+    border: none; 
+}
+.submit-button {
+    position: absolute;
+    height: 3.5vw;
+    width: 12vw;
+    left: 44%;
+    bottom: 16%;
+    background-color: green;
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+.input-area{
+    height: 100%;
+    width: 100%;
+}
+
+::placeholder {
+    color: white;
+}
+.play, .question-1, #first{
+    background-color: #E02509;
+    font-size: 3.5em;
+    color: black;
+    transition: 0.5s;
+}
+.create-custom, .question-2, #second{
+    background-color: #33A4FF;
+    font-size: 3.5em;
+    color: black;
+    transition: 0.5s;
+}
+.question-1, .question-2 {
+    font-size: 2.75vw;
+    text-align: center;
+}
+
+.play:hover, .create-custom:hover, #first:hover, #second:hover{
+    transform: scale(1.02);
+    color:white;  
+}
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    padding: 0;
+    top: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-menu ul li .fa {
+    font-size: 25px;
+    line-height: 50px;
+    color: black;
+    transition: 0.5s;
+    
+}
+.footer-menu ul  li a{
+    display: block;
+    text-align: center;
+    position: relative;
+    border-radius: 50%;
+    transition: 0.5s;
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color: white;
+}
+.footer-menu ul li a:hover {
+    transform: translate(0, -10px);
+}
+.footer-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+
+.footer-menu ul li:nth-child(2) a:hover {
+    background-color: #e4405f;
+}
+
+.footer-menu ul li:nth-child(3) a:hover {
+    background-color: #0077B5;
+}
+
+footer{
+    width: 100%;
+    height: 12%;
+    background-color: black;
+    color:white;
+    position: absolute;
+    bottom: 0;
+    text-align: left;
+}
+.footer-text {
+    line-height: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    font-size: 1.875rem;
+    transition: 0.5s;
+}
+.contact-text {
+    font-size: 1.25rem;
+    line-height: 5px;
+    padding-left: 20px;
+}
+.contact-text:hover{
+    color: #6b34eb
+}
+ .footer-text:hover {
+    color: #6b34eb;
+}
+.submit-button:hover  {
+    transform: scale(1.05);
+}
+.footer-menu ul li .fa:hover {
+    color: #ffffff;
+}
+
+#next-question-button{
+    position: absolute;
+    height: 4vw;
+    width: 75vw;
+    left: 12.5%;
+    bottom: 16%;
+    background-color: teal;
+    font-size: 40px;
+    transition: 0.5s;
+}
+#next-question-button:hover{
+    transform: scale(1.02);
+}
+
+
+
+
+
+
+
